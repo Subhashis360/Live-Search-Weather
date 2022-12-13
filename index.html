@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="maindiv" id="maindiv">
+        
+        <div class="banner2" id="contentbanner2">
+            <button class="backbtn" id="backbtn" onclick="back()">
+            <img class="backphoto" src="https://e7.pngegg.com/pngimages/1023/763/png-clipart-arrow-font-awesome-computer-icons-back-to-back-angle-logo.png" alt="">
+            </button>
+            <h3 class="weather2">Weather App</h3>
+        </div>
+        
+<!-- This is search div -->
+        <div class="searchdiv" id="searchdiv">
+            <input type="search" class="search" autocomplete="off" id="search" placeholder="Enter Your City name" required>
+            <button class="submit" id="submit" onclick="search()">GET DETAILS</button>
+        </div>
+<!-- This is result div -->
+        <div class="contentdiv" id="contentdiv">
+            <div class="photodiv">
+                <img class="mainimg" src="https://www.pngall.com/wp-content/uploads/11/Weather-PNG-Background.png" alt="">
+                <div class="tempdiv">
+                    <h1 class="temp" id="temp">53</h1><h1>°C</h1>
+                </div>
+                <div class="locdiv">
+                    <h1 id="adress">Kolkata westbengal,india</h1>
+                </div>
+                <div class="detailsdiv">
+                        <div class="feelslike">
+                            <h1 class="feeltemp" id="feeltemp">53</h1><h1>°C</h1>
+                        </div>
+                        <div class="humidity">
+                            <h1 class="humi" id="humi">33</h1><h1>%</h1>
+                        </div>
+                </div>
+                <div class="ddiv">
+                    <h1 class="feeltalk">Feels like</h1>
+                    <h1 class="humitalk">Humidity</h1>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
